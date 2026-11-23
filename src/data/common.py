@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 ROOT = Path(__file__).resolve().parents[2]
-RAW = ROOT/'data'/'raw'
+RAW = ROOT / "house-prices-advanced-regression-techniques"
 SYN = ROOT/'data'/'synthetic'
 OUT = ROOT/'data'/'processed'
 REPORT = ROOT/'reports'/'data_quality'
