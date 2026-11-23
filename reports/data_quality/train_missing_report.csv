@@ -1,0 +1,6 @@
+column,missing_count,missing_pct
+LotFrontage,259,17.74
+GarageYrBlt,81,5.55
+MasVnrType,8,0.55
+MasVnrArea,8,0.55
+Electrical,1,0.07

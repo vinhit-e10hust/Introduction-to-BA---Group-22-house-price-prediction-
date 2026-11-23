@@ -1,0 +1,5 @@
+column,Q1,Q3,IQR,lower_bound,upper_bound,outlier_count,outlier_pct
+GrLivArea,1117.5,1721.0,603.5,212.25,2626.25,44,3.02
+LotArea,7391.0,11517.5,4126.5,1201.25,17707.25,60,4.11
+TotalBsmtSF,784.0,1305.0,521.0,2.5,2086.5,61,4.18
+GarageArea,318.0,576.0,258.0,-69.0,963.0,21,1.44
