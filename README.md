@@ -219,4 +219,3 @@ As specified by the assignment:
 **Team:** Group 22  
 **Project:** House Price Prediction for a Real Estate Listing Platform  
 **Primary assignment:** `RealEstate_House_Price_Prediction_Project_Announcement.pdf`
-
