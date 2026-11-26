@@ -142,9 +142,9 @@ The team consists of **five members**, with responsibility areas proposed as fol
 
 | Role | Primary scope | Key handoff |
 | --- | --- | --- |
-| **ML Engineer – Modeling / Technical Lead** | M4–M5 | Preprocessing, model training, model artifacts |
+| **ML Engineer – Modeling** | M4–M5 | Preprocessing, model training, model artifacts |
 | **ML Engineer – Evaluation** | M5 and monitoring design in M7 | Metrics, validation, residuals, uncertainty analysis |
-| **Data Engineer** | M1 and M3 | Supplementary data, cleaning rules, Data Dictionary |
+| **Data Engineer (Lead)** | M1 and M3 | Supplementary data, cleaning rules, Data Dictionary |
 | **MLOps Engineer** | M6 and implementation of M7 | API, UI, cloud deployment, dashboard |
 | **Data Analyst / Business Analyst** | M1, M2 and M8 coordination | EDA insights, business interpretation, report coordination |
 
