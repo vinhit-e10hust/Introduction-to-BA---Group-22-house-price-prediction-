@@ -1,0 +1,90 @@
+﻿feature,description,role,analysis_type,storage_dtype,unit_or_scale,missing_count,missing_pct,unique_count
+Id,Unique property row identifier; exclude from price-driver analysis.,Identifier,Identifier,int64,see data dictionary/source,0,0.0,1460
+MSSubClass,Identifies the type of dwelling involved in the sale.,Base feature,Nominal categorical (integer code),int64,see data dictionary/source,0,0.0,15
+MSZoning,Identifies the general zoning classification of the sale.,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,5
+LotFrontage,Linear feet of street connected to property,Base feature,Numeric continuous,float64,linear ft,259,17.74,110
+LotArea,Lot size in square feet,Base feature,Numeric continuous,int64,sq ft,0,0.0,1073
+Street,Type of road access to property,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,2
+Alley,Type of alley access to property,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,3
+LotShape,General shape of property,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,4
+LandContour,Flatness of the property,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,4
+Utilities,Type of utilities available,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,2
+LotConfig,Lot configuration,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,5
+LandSlope,Slope of property,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,3
+Neighborhood,Physical locations within Ames city limits,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,25
+Condition1,Proximity to various conditions,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,9
+Condition2,Proximity to various conditions (if more than one is present),Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,8
+BldgType,Type of dwelling,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,5
+HouseStyle,Style of dwelling,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,8
+OverallQual,Rates the overall material and finish of the house,Base feature,Ordinal categorical,int64,1–10 ordinal score,0,0.0,10
+OverallCond,Rates the overall condition of the house,Base feature,Ordinal categorical,int64,1–10 ordinal score,0,0.0,9
+YearBuilt,Original construction date,Base feature,Numeric continuous,int64,year,0,0.0,112
+YearRemodAdd,Remodel date (same as construction date if no remodeling or additions),Base feature,Numeric continuous,int64,year,0,0.0,61
+RoofStyle,Type of roof,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,6
+RoofMatl,Roof material,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,8
+Exterior1st,Exterior covering on house,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,15
+Exterior2nd,Exterior covering on house (if more than one material),Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,16
+MasVnrType,Masonry veneer type,Base feature,Nominal categorical,str,see data dictionary/source,8,0.55,4
+MasVnrArea,Masonry veneer area in square feet,Base feature,Numeric continuous,float64,sq ft,8,0.55,327
+ExterQual,Evaluates the quality of the material on the exterior,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,4
+ExterCond,Evaluates the present condition of the material on the exterior,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,5
+Foundation,Type of foundation,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,6
+BsmtQual,Evaluates the height of the basement,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,5
+BsmtCond,Evaluates the general condition of the basement,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,5
+BsmtExposure,Refers to walkout or garden level walls,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,5
+BsmtFinType1,Rating of basement finished area,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,7
+BsmtFinSF1,Type 1 finished square feet,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,637
+BsmtFinType2,Rating of basement finished area (if multiple types),Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,7
+BsmtFinSF2,Type 2 finished square feet,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,144
+BsmtUnfSF,Unfinished square feet of basement area,Base feature,Numeric continuous,int64,sq ft,0,0.0,780
+TotalBsmtSF,Total square feet of basement area,Base feature,Numeric continuous,int64,sq ft,0,0.0,721
+Heating,Type of heating,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,6
+HeatingQC,Heating quality and condition,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,5
+CentralAir,Central air conditioning,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,2
+Electrical,Electrical system,Base feature,Nominal categorical,str,see data dictionary/source,1,0.07,5
+1stFlrSF,First Floor square feet,Base feature,Numeric continuous,int64,sq ft,0,0.0,753
+2ndFlrSF,Second floor square feet,Base feature,Numeric continuous,int64,sq ft,0,0.0,417
+LowQualFinSF,Low quality finished square feet (all floors),Base feature,Numeric continuous,int64,sq ft,0,0.0,24
+GrLivArea,Above grade (ground) living area square feet,Base feature,Numeric continuous,int64,sq ft,0,0.0,861
+BsmtFullBath,Basement full bathrooms,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,4
+BsmtHalfBath,Basement half bathrooms,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,3
+FullBath,Full bathrooms above grade,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,4
+HalfBath,Half baths above grade,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,3
+BedroomAbvGr,See project data dictionary.,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,8
+KitchenAbvGr,See project data dictionary.,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,4
+KitchenQual,Kitchen quality,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,4
+TotRmsAbvGrd,Total rooms above grade (does not include bathrooms),Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,12
+Functional,Home functionality (Assume typical unless deductions are warranted),Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,7
+Fireplaces,Number of fireplaces,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,4
+FireplaceQu,Fireplace quality,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,6
+GarageType,Garage location,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,7
+GarageYrBlt,Year garage was built,Base feature,Numeric continuous,float64,year,81,5.55,97
+GarageFinish,Interior finish of the garage,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,4
+GarageCars,Size of garage in car capacity,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,5
+GarageArea,Size of garage in square feet,Base feature,Numeric continuous,int64,sq ft,0,0.0,441
+GarageQual,Garage quality,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,6
+GarageCond,Garage condition,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,6
+PavedDrive,Paved driveway,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,3
+WoodDeckSF,Wood deck area in square feet,Base feature,Numeric continuous,int64,sq ft,0,0.0,274
+OpenPorchSF,Open porch area in square feet,Base feature,Numeric continuous,int64,sq ft,0,0.0,202
+EnclosedPorch,Enclosed porch area in square feet,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,120
+3SsnPorch,Three season porch area in square feet,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,20
+ScreenPorch,Screen porch area in square feet,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,76
+PoolArea,Pool area in square feet,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,8
+PoolQC,Pool quality,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,4
+Fence,Fence quality,Base feature,Ordinal categorical,str,see data dictionary/source,0,0.0,5
+MiscFeature,Miscellaneous feature not covered in other categories,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,5
+MiscVal,$Value of miscellaneous feature,Base feature,Numeric continuous,int64,see data dictionary/source,0,0.0,21
+MoSold,Month Sold (MM),Base feature,Calendar month (numeric code),int64,month,0,0.0,12
+YrSold,Year Sold (YYYY),Base feature,Numeric discrete,int64,year,0,0.0,5
+SaleType,Type of sale,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,9
+SaleCondition,Condition of sale,Base feature,Nominal categorical,str,see data dictionary/source,0,0.0,6
+SalePrice,Sale price in USD; project target.,Target,Target (numeric continuous),int64,USD,0,0.0,663
+DistanceToSchoolKm,Simulated distance to school; not a real geocoded measurement.,Synthetic feature,Numeric continuous,float64,km,0,0.0,433
+DistanceToHospitalKm,Simulated distance to hospital; not a real geocoded measurement.,Synthetic feature,Numeric continuous,float64,km,0,0.0,556
+DistanceToTransitKm,Simulated distance to transit; not a real geocoded measurement.,Synthetic feature,Numeric continuous,float64,km,0,0.0,364
+RenovationFlag,"Derived indicator: 1 if YearRemodAdd > YearBuilt, else 0.",Synthetic feature,Binary categorical,int64,binary (0/1),0,0.0,2
+YearsSinceRenovation,Simulated/derived historical years since remodel using YrSold.,Synthetic feature,Numeric continuous,int64,year,0,0.0,61
+DaysOnMarket,Simulated listing duration; unavailable at initial listing valuation.,Synthetic feature,Numeric continuous,int64,days,0,0.0,89
+SimulatedInterestRatePct,Hypothetical interest-rate index derived from historical sale year.,Synthetic feature,Numeric continuous,float64,percentage points,0,0.0,5
+SimulatedPriceIndex,Hypothetical price index derived from historical sale year.,Synthetic feature,Numeric continuous,float64,index points (base 2006=100),0,0.0,5

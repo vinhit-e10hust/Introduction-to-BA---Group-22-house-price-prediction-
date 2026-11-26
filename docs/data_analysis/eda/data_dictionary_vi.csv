@@ -1,0 +1,90 @@
+﻿Trường,Giải thích tiếng Việt,Vai trò,Loại biến,Đơn vị/thang đo,Missing
+Id,Mã nhận diện duy nhất của căn nhà trong bộ dữ liệu. Không phải đặc điểm nhà và không dùng làm yếu tố giải thích giá.,Mã định danh,Mã định danh,xem mô tả/giá trị mã trong bộ dữ liệu,0
+MSSubClass,"Mã loại hình nhà ở (ví dụ nhà 1 tầng, 2 tầng, duplex, townhouse). Là biến phân loại được mã hóa bằng số.",Biến gốc,Biến phân loại danh nghĩa (mã số),xem mô tả/giá trị mã trong bộ dữ liệu,0
+MSZoning,"Phân loại quy hoạch/khu chức năng của bất động sản (ví dụ dân cư mật độ thấp/cao, thương mại, nông nghiệp).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+LotFrontage,"Chiều dài mặt tiền lô đất tiếp giáp với đường, tính bằng feet. Có giá trị thiếu.",Biến gốc,Biến số liên tục (diện tích),feet chiều dài,259
+LotArea,"Diện tích lô đất, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),feet vuông,0
+Street,Loại mặt đường tiếp cận bất động sản (đường trải nhựa hoặc đường sỏi).,Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+Alley,Loại lối đi trong hẻm tiếp cận nhà; giá trị NA trong dữ liệu nghĩa là không có lối hẻm.,Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+LotShape,"Hình dạng lô đất (đều, hơi méo, méo vừa, méo nhiều).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+LandContour,"Địa hình/độ bằng phẳng của lô đất (gần phẳng, dốc lên từ đường, sườn đồi, vùng trũng).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+Utilities,"Các tiện ích công cộng có sẵn như điện, gas, nước và hệ thống thoát nước.",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+LotConfig,"Vị trí/cấu hình lô đất trong khu phố (lô giữa, góc, cul-de-sac, mặt tiền hai hoặc ba phía).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+LandSlope,"Mức độ dốc của lô đất (nhẹ, vừa, lớn).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+Neighborhood,Mã khu vực/vị trí trong thành phố Ames. Đây là danh mục vị trí quan trọng để so sánh giá.,Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+Condition1,"Điều kiện hoặc yếu tố lân cận thứ nhất, như gần đường lớn, đường nhánh, đường sắt hoặc công viên.",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+Condition2,Điều kiện lân cận bổ sung nếu có hơn một yếu tố ảnh hưởng.,Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+BldgType,"Loại công trình nhà ở (nhà đơn lập, chuyển đổi hai hộ, duplex, townhouse đầu dãy/giữa dãy).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+HouseStyle,"Kiểu/số tầng và cách bố trí tầng của căn nhà (một tầng, hai tầng, split-level, foyer...).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+OverallQual,"Điểm chất lượng tổng thể của vật liệu và độ hoàn thiện, thang thứ bậc 1–10 (1 rất kém, 10 xuất sắc).",Biến gốc,Biến phân loại thứ bậc,thang điểm thứ bậc 1–10,0
+OverallCond,"Điểm tình trạng tổng thể hiện tại của căn nhà, thang thứ bậc 1–10 (1 rất kém, 10 xuất sắc).",Biến gốc,Biến phân loại thứ bậc,thang điểm thứ bậc 1–10,0
+YearBuilt,Năm xây dựng ban đầu của căn nhà.,Biến gốc,Biến số rời rạc (đếm/năm),năm,0
+YearRemodAdd,"Năm sửa chữa lớn/cải tạo gần nhất; nếu không sửa, thường bằng năm xây dựng.",Biến gốc,Biến số rời rạc (đếm/năm),năm,0
+RoofStyle,"Kiểu mái nhà (mái bằng, đầu hồi, hông, mansard...).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+RoofMatl,"Vật liệu lợp mái (ngói, tấm kim loại, cuộn asphalt...).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+Exterior1st,Vật liệu hoàn thiện mặt ngoài chính của nhà.,Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+Exterior2nd,Vật liệu hoàn thiện mặt ngoài thứ hai/nếu có nhiều loại.,Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+MasVnrType,"Loại lớp ốp veneer xây (gạch, đá, không có...). Có giá trị thiếu.",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,8
+MasVnrArea,"Diện tích lớp veneer xây, tính bằng feet vuông. Có giá trị thiếu.",Biến gốc,Biến số liên tục (diện tích),feet vuông,8
+ExterQual,Đánh giá chất lượng vật liệu/hoàn thiện bên ngoài nhà (xuất sắc đến kém; biến thứ bậc).,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+ExterCond,Đánh giá tình trạng hiện tại của phần bên ngoài nhà (xuất sắc đến kém; biến thứ bậc).,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+Foundation,"Loại móng nhà (bê tông đổ, block bê tông, đá, gạch...).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+BsmtQual,Đánh giá chiều cao/chất lượng tầng hầm; NA thường nghĩa là không có tầng hầm.,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+BsmtCond,Đánh giá tình trạng tổng thể của tầng hầm; NA thường nghĩa là không có tầng hầm.,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+BsmtExposure,Mức độ tầng hầm tiếp xúc với bên ngoài/ánh sáng tự nhiên; NA thường nghĩa là không có tầng hầm.,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+BsmtFinType1,Loại/mức hoàn thiện của khu vực tầng hầm hoàn thiện thứ nhất; NA nghĩa là không có tầng hầm.,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+BsmtFinSF1,"Diện tích tầng hầm hoàn thiện loại 1, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),xem mô tả/giá trị mã trong bộ dữ liệu,0
+BsmtFinType2,Loại/mức hoàn thiện của khu vực tầng hầm hoàn thiện thứ hai (nếu có).,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+BsmtFinSF2,"Diện tích tầng hầm hoàn thiện loại 2, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),xem mô tả/giá trị mã trong bộ dữ liệu,0
+BsmtUnfSF,"Diện tích tầng hầm chưa hoàn thiện, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),feet vuông,0
+TotalBsmtSF,"Tổng diện tích tầng hầm, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),feet vuông,0
+Heating,Loại hệ thống sưởi của căn nhà.,Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+HeatingQC,Đánh giá chất lượng/tình trạng hệ thống sưởi (xuất sắc đến kém).,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+CentralAir,Nhà có hệ thống điều hòa trung tâm hay không (Y/N).,Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+Electrical,Loại hệ thống điện trong nhà. Có một quan sát thiếu.,Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,1
+1stFlrSF,"Diện tích tầng một, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),feet vuông,0
+2ndFlrSF,"Diện tích tầng hai, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),feet vuông,0
+LowQualFinSF,"Diện tích hoàn thiện có chất lượng thấp, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),feet vuông,0
+GrLivArea,"Tổng diện tích sinh hoạt phía trên mặt đất (thường gồm tầng một, tầng hai và phần hoàn thiện liên quan), tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),feet vuông,0
+BsmtFullBath,Số phòng tắm đầy đủ ở tầng hầm.,Biến gốc,Biến số rời rạc (đếm/năm),xem mô tả/giá trị mã trong bộ dữ liệu,0
+BsmtHalfBath,"Số phòng tắm nửa (toilet + lavabo, không có bồn tắm/vòi sen) ở tầng hầm.",Biến gốc,Biến số rời rạc (đếm/năm),xem mô tả/giá trị mã trong bộ dữ liệu,0
+FullBath,Số phòng tắm đầy đủ phía trên mặt đất.,Biến gốc,Biến số rời rạc (đếm/năm),xem mô tả/giá trị mã trong bộ dữ liệu,0
+HalfBath,Số phòng tắm nửa phía trên mặt đất.,Biến gốc,Biến số rời rạc (đếm/năm),xem mô tả/giá trị mã trong bộ dữ liệu,0
+BedroomAbvGr,Số phòng ngủ phía trên mặt đất; không tính phòng ngủ tầng hầm.,Biến gốc,Biến số rời rạc (đếm/năm),xem mô tả/giá trị mã trong bộ dữ liệu,0
+KitchenAbvGr,Số nhà bếp phía trên mặt đất.,Biến gốc,Biến số rời rạc (đếm/năm),xem mô tả/giá trị mã trong bộ dữ liệu,0
+KitchenQual,Đánh giá chất lượng nhà bếp (xuất sắc đến kém; biến thứ bậc).,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+TotRmsAbvGrd,Tổng số phòng phía trên mặt đất; không tính phòng tắm.,Biến gốc,Biến số rời rạc (đếm/năm),xem mô tả/giá trị mã trong bộ dữ liệu,0
+Functional,Mức độ hoạt động/chức năng của căn nhà; Typical nghĩa là hoạt động bình thường.,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+Fireplaces,Số lò sưởi trong nhà.,Biến gốc,Biến số rời rạc (đếm/năm),xem mô tả/giá trị mã trong bộ dữ liệu,0
+FireplaceQu,Đánh giá chất lượng lò sưởi; NA nghĩa là không có lò sưởi.,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+GarageType,"Vị trí/loại garage (gắn liền, tách rời, tầng hầm...). NA nghĩa là không có garage.",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+GarageYrBlt,Năm xây garage. Có giá trị thiếu; kiểm tra cùng GarageType để phân biệt không có garage với thiếu thông tin.,Biến gốc,Biến số rời rạc (đếm/năm),năm,81
+GarageFinish,"Mức hoàn thiện bên trong garage (hoàn thiện, hoàn thiện một phần, chưa hoàn thiện). NA nghĩa là không có garage.",Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+GarageCars,Sức chứa garage tính theo số xe.,Biến gốc,Biến số rời rạc (đếm/năm),xem mô tả/giá trị mã trong bộ dữ liệu,0
+GarageArea,"Diện tích garage, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),feet vuông,0
+GarageQual,Đánh giá chất lượng garage; NA nghĩa là không có garage.,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+GarageCond,Đánh giá tình trạng garage; NA nghĩa là không có garage.,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+PavedDrive,"Tình trạng đường xe vào nhà (đã lát, một phần, chưa lát).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+WoodDeckSF,"Diện tích sàn/hiên gỗ ngoài trời, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),feet vuông,0
+OpenPorchSF,"Diện tích hiên mở, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),feet vuông,0
+EnclosedPorch,"Diện tích hiên có che kín, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),xem mô tả/giá trị mã trong bộ dữ liệu,0
+3SsnPorch,"Diện tích hiên sử dụng ba mùa, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),xem mô tả/giá trị mã trong bộ dữ liệu,0
+ScreenPorch,"Diện tích hiên có lưới chắn, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),xem mô tả/giá trị mã trong bộ dữ liệu,0
+PoolArea,"Diện tích hồ bơi, tính bằng feet vuông.",Biến gốc,Biến số liên tục (diện tích),xem mô tả/giá trị mã trong bộ dữ liệu,0
+PoolQC,Đánh giá chất lượng hồ bơi; NA nghĩa là không có hồ bơi.,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+Fence,Chất lượng/mức độ riêng tư của hàng rào; NA nghĩa là không có hàng rào.,Biến gốc,Biến phân loại thứ bậc,xem mô tả/giá trị mã trong bộ dữ liệu,0
+MiscFeature,"Đặc điểm bổ sung không được mô tả ở các trường khác (ví dụ shed, tennis court). NA nghĩa là không có.",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+MiscVal,Giá trị bằng USD của đặc điểm bổ sung được ghi ở MiscFeature.,Biến gốc,Biến số rời rạc (đếm/năm),xem mô tả/giá trị mã trong bộ dữ liệu,0
+MoSold,Tháng bán căn nhà (1–12).,Biến gốc,Biến thời gian dạng tháng,tháng,0
+YrSold,Năm giao dịch bán nhà được ghi nhận.,Biến gốc,Biến số rời rạc (đếm/năm),năm,0
+SaleType,"Loại hình giao dịch bán (ví dụ bán thông thường, đấu giá, chuyển nhượng...).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+SaleCondition,"Điều kiện/hoàn cảnh của giao dịch (bình thường, gia đình, đất liền kề, bán một phần...).",Biến gốc,Biến phân loại danh nghĩa,xem mô tả/giá trị mã trong bộ dữ liệu,0
+SalePrice,"Giá bán thực tế lịch sử của căn nhà, USD. Đây là biến mục tiêu cần phân tích.",Target,Biến mục tiêu liên tục,USD,0
+DistanceToSchoolKm,"Khoảng cách đến trường học tính bằng km; được mô phỏng từ giả định accessibility, không phải đo vị trí thực tế.",Synthetic/mô phỏng,Biến số liên tục,km,0
+DistanceToHospitalKm,"Khoảng cách đến bệnh viện tính bằng km; dữ liệu mô phỏng, không phải geocoding thực tế.",Synthetic/mô phỏng,Biến số liên tục,km,0
+DistanceToTransitKm,Khoảng cách đến giao thông công cộng tính bằng km; dữ liệu mô phỏng.,Synthetic/mô phỏng,Biến số liên tục,km,0
+RenovationFlag,"Cờ cải tạo: bằng 1 nếu YearRemodAdd > YearBuilt, ngược lại bằng 0. Đây là biến dẫn xuất.",Synthetic/mô phỏng,Biến nhị phân,nhị phân 0/1,0
+YearsSinceRenovation,"YrSold − YearRemodAdd, chặn tối thiểu ở 0. Nếu chưa cải tạo thì có thể gần như tuổi nhà tại thời điểm bán; không phải quan sát độc lập.",Synthetic/mô phỏng,Biến số liên tục,năm,0
+DaysOnMarket,"Số ngày đăng bán được mô phỏng theo accessibility, cờ cải tạo và thời gian; không phải dữ liệu lịch sử quan sát.",Synthetic/mô phỏng,Biến số liên tục,ngày,0
+SimulatedInterestRatePct,"Lãi suất giả định theo năm bán (6,5 − 0,2 × (YrSold − 2006)); không phải lãi suất lịch sử thực tế.",Synthetic/mô phỏng,Biến số liên tục,điểm phần trăm,0
+SimulatedPriceIndex,"Chỉ số giá giả định: 100 × 1,02^(YrSold − 2006), lấy năm 2006 = 100; không phải chỉ số thị trường thực tế.",Synthetic/mô phỏng,Biến số liên tục,điểm chỉ số (2006=100),0
