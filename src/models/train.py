@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import json
 from dataclasses import dataclass
 from pathlib import Path
@@ -13,7 +13,14 @@ from sklearn.linear_model import Lasso, LinearRegression, Ridge
 from sklearn.model_selection import GridSearchCV, KFold
 from xgboost import XGBRegressor
 
-from src.data.common import HOLDOUT_YEAR, SALES_SPLIT_SEED, historical_split_ids, read_housing
+from src.data.common import read_housing
+
+from src.models.split import (
+    HOLDOUT_YEAR,
+    SALES_SPLIT_SEED,
+    historical_split_ids,
+)
+
 from src.models.evaluation import (
     area_weighting_diagnostics,
     cohort_metrics,
@@ -64,9 +71,11 @@ def candidates(threads):
     }
     return [
         Candidate("Median baseline", DummyRegressor(strategy="median"), {}, log_target=False),
-        Candidate("Linear Regression", LinearRegression(tol=1e-5), {}, scale=True),
-        Candidate("Linear Regression (USD target)", LinearRegression(tol=1e-5), {},
-                  scale=True, log_target=False),
+        Candidate("Linear Regression", LinearRegression(), {}, scale=True),
+        Candidate("Linear Regression", LinearRegression(), {}, scale=True),
+
+        Candidate("Linear Regression (USD target)", LinearRegression(), {},
+            scale=True, log_target=False),
         Candidate("Ridge", Ridge(), ridge_grid, scale=True),
         Candidate("Ridge (USD target)", Ridge(), ridge_grid, scale=True, log_target=False),
         Candidate("Lasso", Lasso(max_iter=20_000), {
@@ -230,3 +239,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
