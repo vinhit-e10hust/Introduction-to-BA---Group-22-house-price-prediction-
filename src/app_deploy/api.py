@@ -1,5 +1,14 @@
-"""Run: .\\.venv\\Scripts\\python.exe -m uvicorn src.app_deploy.api:api"""
 
+"""
+@Thang
+
+API :
+- get model_info: get the metadata of model
+- post predict
+
+**: for docker only, streamlit sdk does not need this
+
+"""
 import json
 from dataclasses import asdict
 
