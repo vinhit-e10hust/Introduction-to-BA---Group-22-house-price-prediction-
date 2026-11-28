@@ -5,3 +5,8 @@ __pycache__/
 .ipynb_checkpoints/
 
 /data/raw/
+
+
+test_predictions.csv
+*.log
+.streamlit/secrets.toml
