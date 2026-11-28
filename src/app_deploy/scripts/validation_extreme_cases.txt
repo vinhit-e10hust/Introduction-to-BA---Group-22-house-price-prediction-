@@ -1,0 +1,15 @@
+is_valid=False
+n_rows=8
+n_missing_cells=4
+Issue(level='error', code='2_BAD_TYPE_CAT', column='Street', rows=[])
+Issue(level='error', code='3_REQUIRED_MISSING', column='OverallQual', rows=[7])
+Issue(level='error', code='3_REQUIRED_MISSING', column='TotalBsmtSF', rows=[5])
+Issue(level='error', code='3_NON_POSITIVE', column='GrLivArea', rows=[1])
+Issue(level='error', code='3_UNSEEN_CATEGORY', column='MSSubClass', rows=[6])
+Issue(level='error', code='3_UNSEEN_CATEGORY', column='Street', rows=[0, 1, 2, 3, 4, 5, 6, 7])
+Issue(level='error', code='3_UNSEEN_CATEGORY', column='CentralAir', rows=[2])
+Issue(level='warning', code='4_OPTIONAL_MISSING', column='LotFrontage', rows=[4, 6])
+Issue(level='warning', code='4_OUT_OF_RANGE', column='LotArea', rows=[3])
+Issue(level='warning', code='4_OUT_OF_RANGE', column='GrLivArea', rows=[1])
+Issue(level='warning', code='4_STRANGE_COLUMN', column='SalePrice', rows=[])
+Issue(level='warning', code='4_STRANGE_COLUMN', column='DaysOnMarket', rows=[])

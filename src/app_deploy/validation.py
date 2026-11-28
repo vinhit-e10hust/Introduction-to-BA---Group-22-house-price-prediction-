@@ -116,13 +116,21 @@ def validate(df, contract):
 
 if __name__ == "__main__":
     import sys
+    from pathlib import Path
 
     from src.app_deploy.contract import load_contract
     from src.data.common import read_housing
 
     result = validate(read_housing(sys.argv[1]), load_contract())
-    print(f"n_rows={result.n_rows} n_missing_cells={result.n_missing_cells}"
-          f" is_valid={result.is_valid}"
-          f" errors={len(result.errors)} warnings={len(result.warnings)}")
-    for issue in result.errors + result.warnings:
-        print(f"{issue.code:20} {issue.column:14} rows={issue.rows}")
+    Path("src/app_deploy/scripts/validation_extreme_cases.txt").write_text(
+        "\n".join(
+            [
+                f"is_valid={result.is_valid}",
+                f"n_rows={result.n_rows}",
+                f"n_missing_cells={result.n_missing_cells}",
+                *(str(issue) for issue in result.errors + result.warnings),
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
