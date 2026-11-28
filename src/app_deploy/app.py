@@ -14,3 +14,37 @@ the app flow:
 
 """
 
+
+import streamlit as st
+
+from src.app_deploy.contract import load_contract
+from src.app_deploy.inference import load_model, predict
+from src.app_deploy.validation import validate
+from src.data.common import read_housing
+
+uploaded = st.file_uploader("csv", type="csv")
+if uploaded is None:
+    st.stop()
+
+uploaded.seek(0)
+df = read_housing(uploaded)
+report = validate(df, load_contract())
+
+st.text(
+    "\n".join(
+        [
+            f"is_valid={report.is_valid}",
+            f"n_rows={report.n_rows}",
+            f"n_missing_cells={report.n_missing_cells}",
+            *(str(issue) for issue in report.errors + report.warnings),
+        ]
+    )
+)
+
+if report.errors:
+    st.stop()
+
+result, meta = predict(load_model(), df)
+st.text("\n".join(f"{key}={value}" for key, value in meta.items()))
+st.dataframe(result)
+st.download_button("csv", result.to_csv(index=False), "predictions.csv", "text/csv")
