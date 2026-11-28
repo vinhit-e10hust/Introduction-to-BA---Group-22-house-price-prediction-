@@ -1,0 +1,13 @@
+﻿n_rows=8 n_missing_cells=4 is_valid=False errors=7 warnings=5
+2_BAD_TYPE_CAT       Street         rows=[]
+3_REQUIRED_MISSING   OverallQual    rows=[7]
+3_REQUIRED_MISSING   TotalBsmtSF    rows=[5]
+3_NON_POSITIVE       GrLivArea      rows=[1]
+3_UNSEEN_CATEGORY    MSSubClass     rows=[6]
+3_UNSEEN_CATEGORY    Street         rows=[0, 1, 2, 3, 4, 5, 6, 7]
+3_UNSEEN_CATEGORY    CentralAir     rows=[2]
+4_OPTIONAL_MISSING   LotFrontage    rows=[4, 6]
+4_OUT_OF_RANGE       LotArea        rows=[3]
+4_OUT_OF_RANGE       GrLivArea      rows=[1]
+4_STRANGE_COLUMN     SalePrice      rows=[]
+4_STRANGE_COLUMN     DaysOnMarket   rows=[]
